@@ -3,23 +3,26 @@
     font-size: 16px;
 }
 
-.container {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-}
-
-h1 {
-    font-size: 38px;
-}
-
 body {
+    margin-top: 24px;
     padding: 24px;
     background-color: #141414;
     max-width: 400px;
     margin: 0 auto;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
+    border-radius: 4px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+h1 {
+    font-size: 38px;
 }
 
 button {
@@ -46,6 +49,7 @@ input {
 }
 
 ul {
+    margin-top: 24px;
     padding: 16px 0px;
     border-radius: 4px;
     list-style-type: none;
