@@ -1,28 +1,38 @@
 * {
+    box-sizing: border-box;
     background: #141414;
-    font-size: 16px;
+    font-size: 1em;
 }
 
 body {
     margin-top: 24px;
     padding: 24px;
     background-color: #141414;
-    max-width: 400px;
     margin: 0 auto;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     border-radius: 4px;
 }
 
-.container {
+.todo {
+    border: 1px solid #B2D3A8;
+    padding: 5%;
+}
+
+.header {
     display: flex;
     align-items: center;
     gap: 16px;
     margin-bottom: 24px;
 }
 
+.content {
+    display: flex;
+    align-items: stretch;
+}
+
 h1 {
-    font-size: 38px;
+    font-size: 2rem;
 }
 
 button {
@@ -40,12 +50,12 @@ button:hover {
 }
 
 input {
+    width: 100%;
     padding: 8px 16px;
     border-radius: 4px; 
     color: white;
     border: 1px solid white;
-    width: 63%;
-    margin-right: 8px;
+    margin-right: 16px;
 }
 
 ul {
@@ -68,5 +78,5 @@ i {
 }
 
 span {
-    color: #629460;
+    color: #e05f5f;
 }
